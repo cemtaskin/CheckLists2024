@@ -8,16 +8,21 @@
 import UIKit
 
 class ChecklistViewController: UITableViewController {
-    var row0Checked=false
-    var row1Checked=false
-    var row2Checked=false
-    var row3Checked=false
-    var row4Checked=false
+
+    var items = [CheckListItem]() //yeni bir dizi oluşturdu. Her bir elemanı CheckListItem türünde
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        var item0 = CheckListItem()
+        item0.text="Eat ice cream"
+        item0.checked=true;
+        items.append(item0)
+        var item1 = CheckListItem()
+        item1.text="Walk the dog"
+        item1.checked=true;
+        items.append(item1)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -36,27 +41,14 @@ class ChecklistViewController: UITableViewController {
         lblSiraNo.text="\(indexPath.row)"
         //lblAciklama.text="\(Int.random(in: 1..<100))"
         
-        switch(indexPath.row%5){
-            case 0:
-                lblAciklama.text="Eat ice cream"
-                break;
-            case 1:
-                lblAciklama.text="Walk the dog"
-                break;
-            case 2:
-                lblAciklama.text="Learn iOS"
-                break;
-            case 3:
-                lblAciklama.text="Soccer practice"
-                break;
-            case 4:
-                lblAciklama.text="Brush my teeth"
-                break;
-            default:
-                break;
-
-        }
         
+        var item = items[indexPath.row]
+        lblAciklama.text = item.text
+        if (item.checked){
+            cell.accessoryType = .checkmark
+        }else{
+            cell.accessoryType = .none
+        }
         
         
         return cell
@@ -65,75 +57,21 @@ class ChecklistViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       return 50
+        return items.count
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-       
-        let cell = tableView.cellForRow(at: indexPath)!
         
-        
-        switch (indexPath.row%5){
-        case 0:
-            row0Checked = !row0Checked
-            
-            break
-        case 1:
-            row1Checked = !row1Checked
-            break
-        case 2:
-            row2Checked = !row2Checked
-            break
-        case 3:
-            row3Checked = !row3Checked
-            break
-        case 4:
-            row4Checked = !row4Checked
-            break
-        default:
-            break
+        let cell = tableView.cellForRow(at: indexPath)
+        var item = items[indexPath.row]
+        if (item.checked){
+            item.checked = false
+            cell?.accessoryType = .none
+        }else{
+            item.checked = true
+            cell?.accessoryType = .checkmark
         }
         
-        switch(indexPath.row%5){
-        case 0:
-            if (row0Checked){
-                cell.accessoryType = .checkmark
-            }else{
-                cell.accessoryType = .none
-            }
-                break
-        case 1:
-            if (row1Checked){
-                cell.accessoryType = .checkmark
-            }else{
-                cell.accessoryType = .none
-            }
-            break
-        case 2:
-            if (row2Checked){
-                cell.accessoryType = .checkmark
-            }else{
-                cell.accessoryType = .none
-            }
-            break
-        case 3:
-            if (row3Checked){
-                cell.accessoryType = .checkmark
-            }else{
-                cell.accessoryType = .none
-            }
-            break
-        case 4:
-            if (row4Checked){
-                cell.accessoryType = .checkmark
-            }else{
-                cell.accessoryType = .none
-            }
-            break
-        default:
-            break
-        }
-            
         tableView.deselectRow(at: indexPath, animated: false)
         
     }
