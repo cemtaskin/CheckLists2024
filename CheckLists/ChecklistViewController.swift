@@ -8,7 +8,13 @@
 import UIKit
 
 class ChecklistViewController: UITableViewController {
-
+    var row0Checked=false
+    var row1Checked=false
+    var row2Checked=false
+    var row3Checked=false
+    var row4Checked=false
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -51,6 +57,8 @@ class ChecklistViewController: UITableViewController {
 
         }
         
+        
+        
         return cell
         
         
@@ -58,6 +66,76 @@ class ChecklistViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
        return 50
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       
+        let cell = tableView.cellForRow(at: indexPath)!
+        
+        
+        switch (indexPath.row%5){
+        case 0:
+            row0Checked = !row0Checked
+            
+            break
+        case 1:
+            row1Checked = !row1Checked
+            break
+        case 2:
+            row2Checked = !row2Checked
+            break
+        case 3:
+            row3Checked = !row3Checked
+            break
+        case 4:
+            row4Checked = !row4Checked
+            break
+        default:
+            break
+        }
+        
+        switch(indexPath.row%5){
+        case 0:
+            if (row0Checked){
+                cell.accessoryType = .checkmark
+            }else{
+                cell.accessoryType = .none
+            }
+                break
+        case 1:
+            if (row1Checked){
+                cell.accessoryType = .checkmark
+            }else{
+                cell.accessoryType = .none
+            }
+            break
+        case 2:
+            if (row2Checked){
+                cell.accessoryType = .checkmark
+            }else{
+                cell.accessoryType = .none
+            }
+            break
+        case 3:
+            if (row3Checked){
+                cell.accessoryType = .checkmark
+            }else{
+                cell.accessoryType = .none
+            }
+            break
+        case 4:
+            if (row4Checked){
+                cell.accessoryType = .checkmark
+            }else{
+                cell.accessoryType = .none
+            }
+            break
+        default:
+            break
+        }
+            
+        tableView.deselectRow(at: indexPath, animated: false)
+        
     }
 }
 

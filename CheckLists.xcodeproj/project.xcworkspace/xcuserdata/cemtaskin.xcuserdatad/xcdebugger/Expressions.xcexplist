@@ -3,10 +3,21 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "ChecklistViewController.tableView(_:didSelectRowAt:):ChecklistViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "row0Checked">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ChecklistViewController.tableView(_:cellForRowAt:):ChecklistViewController.swift">
          <PersistentStrings>
             <PersistentString
                value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "cell">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

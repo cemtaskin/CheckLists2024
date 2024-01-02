@@ -14,8 +14,194 @@
             filePath = "CheckLists/ChecklistViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DEC54CE-41B2-4231-A3BA-E9AA31A35189"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckLists/ChecklistViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ChecklistViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1DEC54CE-41B2-4231-A3BA-E9AA31A35189 - 85a18a378b84e0c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckLists.ChecklistViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "CheckLists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemtaskin/Desktop/COURSES/2023_mob/CheckLists/CheckLists/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "1DEC54CE-41B2-4231-A3BA-E9AA31A35189 - f211614b8cf9e321"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckLists.ChecklistViewController.row0Checked.getter : Swift.Bool"
+                  moduleName = "CheckLists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemtaskin/Desktop/COURSES/2023_mob/CheckLists/CheckLists/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1DEC54CE-41B2-4231-A3BA-E9AA31A35189 - c387524460e63d88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckLists.ChecklistViewController.row0Checked.setter : Swift.Bool"
+                  moduleName = "CheckLists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemtaskin/Desktop/COURSES/2023_mob/CheckLists/CheckLists/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1DEC54CE-41B2-4231-A3BA-E9AA31A35189 - 4d07b74ef192bc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckLists.ChecklistViewController.row0Checked.modify : Swift.Bool"
+                  moduleName = "CheckLists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemtaskin/Desktop/COURSES/2023_mob/CheckLists/CheckLists/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1DEC54CE-41B2-4231-A3BA-E9AA31A35189 - 37a091f2930ff0c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckLists.ChecklistViewController.row0Checked.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CheckLists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemtaskin/Desktop/COURSES/2023_mob/CheckLists/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1DEC54CE-41B2-4231-A3BA-E9AA31A35189 - 75e9c26aa5b245ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckLists.ChecklistViewController.init(style: __C.UITableViewStyle) -&gt; CheckLists.ChecklistViewController"
+                  moduleName = "CheckLists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemtaskin/Desktop/COURSES/2023_mob/CheckLists/CheckLists/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "1DEC54CE-41B2-4231-A3BA-E9AA31A35189 - 4773d5690bc27da1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckLists.ChecklistViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CheckLists.ChecklistViewController"
+                  moduleName = "CheckLists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemtaskin/Desktop/COURSES/2023_mob/CheckLists/CheckLists/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "1DEC54CE-41B2-4231-A3BA-E9AA31A35189 - b218d40896aa7fe3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckLists.ChecklistViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CheckLists.ChecklistViewController&gt;"
+                  moduleName = "CheckLists"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cemtaskin/Desktop/COURSES/2023_mob/CheckLists/CheckLists/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7DBCF0B-40FC-40AB-9CEF-66E14B9D074C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckLists/ChecklistViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1115C308-6765-406B-9462-BAB708B908E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckLists/ChecklistViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE4E9CCC-985D-4699-AFA9-04826EF9C964"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckLists/ChecklistViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
